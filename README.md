@@ -55,11 +55,11 @@ Sebelum memulai, pastikan sistem kamu sudah memenuhi persyaratan berikut:
 #### 1. Clone Repository
 Pertama, clone repository project ini dari GitHub atau sumber lain ke dalam direktori lokal:
 ```
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/pram212/be-technical-test.git
 ```
 masuk ke directorty project
 ```
-cd be-test-pram
+cd be-technical-test
 ```
 
 #### 2. Instal Dependensi Backend
