@@ -16,7 +16,7 @@ class BookController extends Controller
     public function index()
     {
         try {
-            return BookResource::collection(Book::paginate(10));
+            return BookResource::collection(Book::cursorPaginate(15));
         } catch (\Throwable $th) {
             return response([
                 'message' => 'internal server error' . $th->getMessage()

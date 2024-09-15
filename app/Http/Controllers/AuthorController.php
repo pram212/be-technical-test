@@ -16,7 +16,7 @@ class AuthorController extends Controller
     public function index()
     {
         try {
-            return AuthorResource::collection(Author::paginate(10));
+            return AuthorResource::collection(Author::cursorPaginate(15));
         } catch (\Throwable $th) {
             return response(content:["message" => "internal server error"], status:500);
         }
