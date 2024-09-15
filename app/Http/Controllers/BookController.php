@@ -120,7 +120,7 @@ class BookController extends Controller
 
             DB::commit();
 
-            return response(content:['message' => 'data deleted successfully'], status:204);
+            return response(content:['message' => 'data deleted successfully'], status:200);
 
         } catch (\Throwable $th) {
             DB::rollBack();

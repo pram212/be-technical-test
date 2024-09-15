@@ -57,7 +57,7 @@ class AuthorTest extends TestCase
         $id = Author::doesntHave('books')->first()->id;
         $response = $this->deleteJson("/authors/$id");
 
-        $response->assertStatus(204);
+        $response->assertStatus(200);
 
     }
 }

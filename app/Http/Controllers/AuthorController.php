@@ -6,6 +6,7 @@ use App\Models\Author;
 use App\Http\Requests\StoreAuthorRequest;
 use App\Http\Requests\UpdateAuthorRequest;
 use App\Http\Resources\AuthorResource;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 
 class AuthorController extends Controller
@@ -127,7 +128,7 @@ class AuthorController extends Controller
 
             DB::commit();
 
-            return response(content:['message' => 'data deleted successfully'], status:204);
+            return response(content:['message' => 'data deleted successfully'], status:200);
 
         } catch (\Throwable $th) {
             DB::rollBack();

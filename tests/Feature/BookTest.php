@@ -59,7 +59,7 @@ class BookTest extends TestCase
         $id = Book::first()->id;
         $response = $this->deleteJson("/books/$id");
 
-        $response->assertStatus(204);
+        $response->assertStatus(200);
 
     }
 }
