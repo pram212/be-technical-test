@@ -171,9 +171,10 @@ Saya berencana menggunakan **Redis** sebagai solusi caching untuk meningkatkan p
 #### Author
 #### 1.  GET /authors
 Digunakan untuk mengambil data authors.
+
 Request
 - Method: GET
-- Endpoint: http://localhost:8000/authors
+- Endpoint: `http://localhost:8000/authors`
 - Headers: 
     - `Content-Type : application/json`
 - Response: 
@@ -203,10 +204,11 @@ Request
 }
 ```
 #### 2. POST /authors
-Digunakan untuk membuat author baru,
+Digunakan untuk membuat author baru
+
 Request
 - Method: POST
-- Endpoint: http://localhost:8000/authors
+- Endpoint: `http://localhost:8000/authors`
 - Headers: 
     - `Content-Type: application/json`
 - Body:
@@ -233,9 +235,10 @@ Request
 ```
 #### 3. GET /authors/{id}
 Digunakan untuk menampilkan data author tertentu.
+
 Request
 - Method: GET
-- Endpoint: http://localhost:8000/authors/{id}
+- Endpoint: `http://localhost:8000/authors/{id}`
 - Headers: 
     - `Content-Type : application/json`
 - Response: 
@@ -250,9 +253,10 @@ Request
 
 #### 4. PUT /authors/{id}
 Digunakan untuk menampilkan data author tertentu.
+
 Request
 - Method: PUT/PATCH
-- Endpoint: http://localhost:8000/authors/{id}
+- Endpoint: `http://localhost:8000/authors/{id}`
 - Headers: 
     - `Content-Type : application/json`
 - Body:
@@ -280,9 +284,10 @@ Request
 
 #### 5. DELETE /authors/{id}
 Digunakan untuk menampilkan data author tertentu.
+
 Request
 - Method: DELETE
-- Endpoint: http://localhost:8000/authors/{id}
+- Endpoint: `http://localhost:8000/authors/{id}`
 - Headers: 
     - `Content-Type : application/json`
 - Response: 
@@ -294,9 +299,10 @@ Request
 #### Book
 #### 1.  GET /books
 Digunakan untuk mengambil data books.
+
 Request
 - Method: GET
-- Endpoint: http://localhost:8000/books
+- Endpoint: `http://localhost:8000/books`
 - Headers: 
     - `Content-Type : application/json`
 - Response: 
@@ -327,10 +333,11 @@ Request
 }
 ```
 #### 2. POST /books
-Digunakan untuk membuat author baru,
+Digunakan untuk membuat author baru
+
 Request
 - Method: POST
-- Endpoint: http://localhost:8000/books
+- Endpoint: `http://localhost:8000/books`
 - Headers: 
     - `Content-Type: application/json`
 - Body:
@@ -359,9 +366,10 @@ Request
 ```
 #### 3. GET /books/{id}
 Digunakan untuk menampilkan data author tertentu.
+
 Request
 - Method: GET
-- Endpoint: http://localhost:8000/books/{id}
+- Endpoint: `http://localhost:8000/books/{id}`
 - Headers: 
     - `Content-Type : application/json`
 - Response: 
@@ -382,9 +390,10 @@ Request
 
 #### 4. PUT /books/{id}
 Digunakan untuk menampilkan data author tertentu.
+
 Request
 - Method: PUT/PATCH
-- Endpoint: http://localhost:8000/books/{id}
+- Endpoint: `http://localhost:8000/books/{id}`
 - Headers: 
     - `Content-Type : application/json`
 - Body:
@@ -414,9 +423,10 @@ Request
 
 #### 5. DELETE /books/{id}
 Digunakan untuk menampilkan data author tertentu.
+
 Request
 - Method: DELETE
-- Endpoint: http://localhost:8000/books/{id}
+- Endpoint: `http://localhost:8000/books/{id}`
 - Headers: 
     - `Content-Type : application/json`
 - Response: 
