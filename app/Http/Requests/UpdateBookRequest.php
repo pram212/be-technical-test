@@ -28,4 +28,12 @@ class UpdateBookRequest extends FormRequest
             'author_id' => ['required', 'exists:authors,id'],
         ];
     }
+
+    public function messages(): array
+    {
+        return [
+            'author_id.exists' => ":attribute must refer to an existing author"
+        ];
+    }
+    
 }
